@@ -163,10 +163,7 @@ frame-extracted, face-cropped derivative resized to 224×224 and ImageNet-normal
 
 ## 👥 Authors
 
-- **Isit Thakkar** — UTA ID 1002229820
-- **Krushna Bhujbal** — UTA ID 1002241902
-
-UTA · CSE-6367 Computer Vision
+- **Isit Thakkar**
 
 ---
 
