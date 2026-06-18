@@ -25,8 +25,7 @@ pip install -r requirements.txt
 python app.py          # opens a local Gradio app in your browser
 ```
 
-> 🌐 **Live demo:** _add your Hugging Face Space link here once deployed_
-> (one-click deploy instructions in [Deploy a live demo](#-deploy-a-live-demo)).
+> 🌐 **Live demo:** https://huggingface.co/spaces/Isit1/deepfake-detector
 
 <p align="center">
   <img src="assets/architecture.png" width="720" alt="Vision-KAN + Vision-LSTM architecture" />
