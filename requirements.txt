@@ -1,0 +1,16 @@
+# Core deep-learning stack
+torch>=2.0
+torchvision>=0.15
+
+# Backbones
+VisionKAN          # Vision-KAN transformer backbone (pip install VisionKAN)
+timm>=0.9          # required by VisionKAN / DeiT
+einops             # used by the Vision-LSTM backbone (loaded via torch.hub)
+
+# Vision-LSTM is pulled at runtime via torch.hub.load("nx-ai/vision-lstm")
+# and needs no separate pip entry.
+
+# App + utilities
+gradio>=4.0
+Pillow
+numpy
