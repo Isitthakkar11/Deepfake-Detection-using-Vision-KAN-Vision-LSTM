@@ -145,18 +145,6 @@ print(label, f"{prob:.3f}")     # e.g. REAL 0.91
 
 ---
 
-## 🌍 Deploy a live demo
-
-The fastest way to give your portfolio a clickable demo is a **Hugging Face Space**:
-
-1. Create a new Space → **Gradio** SDK.
-2. Upload `app.py`, `src/`, `examples/`, and `requirements.txt`.
-3. Add `as_model_best.pt` via the Space's file uploader (Git LFS), **or** set a
-   Space **secret** `WEIGHTS_URL` pointing to the checkpoint and the app downloads it.
-4. The Space builds and gives you a public URL — paste it into the badge at the top.
-
----
-
 ## 🧠 Bonus: compiled for edge runtimes (optional)
 
 `deployment/` contains scripts that export the model to **ONNX** and compile it
